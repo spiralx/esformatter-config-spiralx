@@ -1,0 +1,79 @@
+{
+  "preset": "default",
+
+  "plugins": [
+    "esformatter-shebang-ignore",
+    "esformatter-braces",
+    "esformatter-eol-last",
+    "esformatter-parseint",
+    "esformatter-quotes",
+    "esformatter-quote-props",
+    "esformatter-remove-trailing-commas",
+    "esformatter-semicolons",
+    "esformatter-spaced-lined-comment",
+    "esformatter-use-strict"
+  ],
+
+  "indent": {
+    "value": "  "
+  },
+
+  "quotes": {
+    "type": "single",
+    "avoidEscape": true
+  },
+
+  "lineBreak": {
+    "before": {
+      "AssignmentExpression": 0,
+      "ElseStatement": 1,
+      "EndOfFile": 1,
+      "FunctionExpressionOpeningBrace": 0,
+      "FunctionExpressionClosingBrace": 1,
+      "FunctionDeclarationOpeningBrace": 0,
+      "FunctionDeclarationClosingBrace": 1,
+      "ObjectExpressionClosingBrace": -1,
+      "Property": -1,
+      "ThrowStatement": -1
+    },
+    "after": {
+      "AssignmentExpression": 0,
+      "FunctionExpression": -1,
+      "FunctionExpressionOpeningBrace": 1,
+      "FunctionExpressionClosingBrace": 1,
+      "FunctionDeclarationOpeningBrace": 1,
+      "FunctionDeclarationClosingBrace": 2,
+      "ObjectExpressionOpeningBrace": -1,
+      "Property": -1
+    }
+  },
+
+  "whiteSpace": {
+    "before": {
+      "ArgumentList": 0,
+      "ArgumentListArrayExpression": 0,
+      "ArgumentListFunctionExpression": 0,
+      "ArgumentListObjectExpression": 0,
+      "AssignmentPattern": 0,
+      "BlockComment": -1,
+      "FunctionName" : 1,
+      "FunctionExpressionOpeningBrace" : 1,
+      "FunctionExpressionClosingBrace" : 1,
+      "FunctionGeneratorAsterisk" : 1,
+      "ParameterList" : 0
+    },
+    "after": {
+      "ArgumentList": 0,
+      "ArgumentListArrayExpression": 0,
+      "ArgumentListFunctionExpression": 0,
+      "ArgumentListObjectExpression": 0,
+      "BlockComment": -1,
+      "FunctionName" : 0,
+      "FunctionReservedWord": 0,
+      "FunctionExpressionOpeningBrace" : 0,
+      "FunctionExpressionClosingBrace" : 1,
+      "FunctionGeneratorAsterisk" : 0,
+      "ParameterList": 0
+    }
+  }
+}

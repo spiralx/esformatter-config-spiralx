@@ -1,0 +1,19 @@
+{
+  "name": "esformatter-config-spiralx",
+  "version": "0.0.1",
+  "description": "My global esformatter configuration",
+  "repository": "spiralx/esformatter-config-spiralx",
+  "keywords": [
+    "esformatter",
+    "esformatterconfig"
+  ],
+  "author": "James Skinner <spiralx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spiralx/esformatter-config-spiralx/issues"
+  },
+  "homepage": "https://github.com/spiralx/esformatter-config-spiralx",
+  "files": [
+    "config.json"
+  ]
+}
